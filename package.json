@@ -1,0 +1,19 @@
+{
+  "name": "imagestore",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@capnajax/debug": "^1.0.0",
+    "cookie-parser": "~1.4.4",
+    "express": "^4.17.1",
+    "http-errors": "~1.6.3",
+    "lodash": "^4.17.19",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.0",
+    "randomstring": "^1.1.5",
+    "redis": "^3.0.2"
+  }
+}
