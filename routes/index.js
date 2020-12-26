@@ -8,6 +8,6 @@ router.get('/', function(req, res, next) {
 
 router.get('/healthz', function(req, res, next) {
   res.sendStatus(204);
-})
+});
 
 module.exports = router;
